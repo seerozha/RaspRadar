@@ -1,2 +1,2 @@
-libxslt1
+libxml2
 psycopg2
