@@ -10,4 +10,5 @@ try:
 except IOError:
   raise MyError()
 
-capture = pyshark.FileCapture('test.pcap')
+pf=config['fileparams']['PCAPFILE']
+capture = pyshark.FileCapture(pf)
