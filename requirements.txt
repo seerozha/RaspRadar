@@ -1,3 +1,4 @@
+libxslt-dev
 libxml2-python3
 pyshark
 psycopg2
