@@ -1,1 +1,2 @@
+libxslt
 psycopg2
