@@ -18,3 +18,6 @@ for pkt in capture:
 #  pkt.pretty_print()
   print(pkt.sniff_time)
   print(pkt.sniff_timestamp)
+  print(pkt['wlan'].ta)
+  print(pkt['radiotap'].dbm_antsignal)
+  print(pkt['wlan_mgt'].ssid)
