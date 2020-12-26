@@ -21,4 +21,4 @@ for pkt in capture:
 #  print(pkt['wlan'].ta)
 #  print(pkt['radiotap'].dbm_antsignal)
 #  print(pkt['wlan'].__dict__)
-  print(pkt['wlan'].bssid)
+  print(pkt['wlan_mgt'].ssid)
