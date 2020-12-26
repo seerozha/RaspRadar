@@ -20,4 +20,4 @@ for pkt in capture:
   print(pkt.sniff_timestamp)
   print(pkt['wlan'].ta)
   print(pkt['radiotap'].dbm_antsignal)
-  print(pkt['wlan_mgt'].ssid)
+  print(pkt['wlan'].ssid)
