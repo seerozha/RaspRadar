@@ -14,4 +14,5 @@ pf=config['fileparams']['PCAPFILE']
 capture = pyshark.FileCapture(pf)
 
 for pkt in capture:
-  print(pkt)
+#  print(pkt)
+  pkt.pretty_print()
