@@ -16,3 +16,5 @@ capture = pyshark.FileCapture(pf)
 for pkt in capture:
 #  print(pkt)
   pkt.pretty_print()
+  pkt.sniff_time
+  pkt.sniff_timestamp
